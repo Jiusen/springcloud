@@ -11,7 +11,8 @@ spring:
       config:
         server-addr: 39.97.233.41:8848 #配置中心地址
         file-extension: yaml #指定yaml格式的配置
-        group: TEST_GROUP
+        group: DEV-GROUP
+        namespace: 6961741e-8e98-4356-8556-55e1091e8656
 
 
   #${prefix}-${spring.profiles.active}.${file-extension}
