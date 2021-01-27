@@ -8,7 +8,9 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 39.97.233.41:8848
+        #1个Nginx + 3个nacos实现集群，访问Nginx的地址，cluster到3个nacos
+        server-addr: 39.97.233.41
+#        server-addr: 39.97.233.41:8848
 
 
 service-url:
